@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Static Layout Creation Using HTML 5 & CSS3</title>
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <div id="header" class=" text-white navbar navbar-expand-xl navbar-light bg-dark m-2 ">
+    <h1 id="logo" class=" m-3 w-50">eStore</h1>   
+          <button class="navbar-toggler " data-bs-target="#menu" type="button" data-bs-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon bg-white"></span>
+          </button>
+          <div id="menu" class="row m-3 text-left collapse navbar-collapse ">
+            <h5 class="col-sm col-lg ">MyAccount</h5>
+            <h5 class="col-sm col-lg ">WishList</h5>
+            <h5 class="col-sm col-lg ">Shopping</h5>
+            <h5 class="col-sm col-lg ">Cart</h5>
+            <h5 class="col-sm col-lg ">Checkout</h5>
+          </div>
+  </div>
+
+  <div id="menu" class=" row  m-4 text-left">
+    <h5 class="col-sm col-lg ">Men</h5>
+    <h5 class="col-sm col-lg ">Women</h5>
+    <h5 class="col-sm col-lg ">Kids</h5>
+    <h5 class="col-sm col-lg-2" >Protective Wear</h5>
+    <h5 class="col-sm col-lg ">Footwear</h5>
+    <h5 class="col-sm col-lg ">Accessories</h5>
+    <h5 class="col-sm col-lg-2 ">Friday Casual</h5>
+    <div class="search col-sm-3 col-lg-3 p-2">
+      <input type="search" placeholder="Search for Products & Brands" class="search w-75 border border-dark">
+    </div>
+  </div>
+
+  <div id="banner" class=" row m-2  p-5 bg-primary justify-content-between">
+   <div id="mask" class="col-sm-3 col-md-4 col-lg-2 mt-4 align-items-center"><img src="images/mask.png" alt="mask" class="img-thumbnail bg-primary "></div>
+    <h1 class=" m-3  col-sm-3 col-md-4 col-lg-4 fw-normal display-1  align-items-center">STAY HOME,<br>STAY SAFE.</h1>
+    <div id="note" class=" m-2 pt-4 text-left col-sm-3 col-md-4 col-lg-3 align-items-center">
+      <p>Contactless Deliveries </p>
+      <p>All delivery staff trained in COVID-19 preventive measures </p>
+      <p>All Delivery and warehouse staff are equipped with medical-grade hand Santizers </p>
+      <p>All warehouses staff undergo daily mandatory thermal temperature scanning</p>
+      <p>No deliveries in 'highly affected' areas </p>
+    </div>
+  </div>
+  <br>
+
+  <div id="dealsoftheday" class="m-3" >
+    <h1>Deals of the day</h1>
+  </div >
+  <div id="row1" class="row text-center  ms-2 justify-content-between">
+    <div  class="col-sm-2 col-md-4 col-lg-2  ">
+      <img src="images/sports.jpg" alt="Sports & Fitness Gear" class=" img-thumbnail w-75 h-50 " >
+      <p class="figcaption">Sports & Fitness Gear <br>Upto 80%off</p>
+    </div>
+    <div class="col-sm-2  col-md-4  col-lg-2  " >
+      <img src="images/branded-jeans.jpg" alt="Branded Jeans" class="img-thumbnail w-75 h-50  " >
+      <p class="figcaption">Branded Jeans<br>Upto 50%off</p>
+    </div>
+    <div class="col-sm-2  col-md-4 col-lg-2  ">
+      <img src="images/branded-Tshirts.jpg" alt="Branded T-Shirts" class="img-thumbnail w-75 h-50  " >
+      <p class="figcaption">Branded T-Shirts<br>Upto 60%off</p>
+    </div>
+    <div class="col-sm-2 col-md-4 col-lg-2 ">
+      <img src="images/sports.jpg" alt="Sports & Fitness Gear" class="img-thumbnail w-75 h-50  " >
+      <p class="figcaption">Sports & Fitness Gear<br>Upto 50%off</p>
+    </div>
+    <div  class="col-sm-2 col-md-4 col-lg-2 ">
+      <img src="images/kids-tshirts.jpeg" alt="Branded Kids T-Shirts" class="img-thumbnail w-75 h-50  " >
+      <p class="figcaption">Branded Kids T-Shirts<br>Upto 40%off</p>
+    </div>
+    <div  class="col-sm-2 col-md-4 col-lg-2 ">
+      <img src="images/girls-tshirts.jpeg" alt="Branded Girls T-Shirts" class="img-thumbnail w-75 h-50  " >
+      <p class="figcaption">Branded Girls T-Shirts<br>Upto 50%off</p>
+    </div>
+  </div>
+
+  <div class="fashioncategories m-3">
+    <h1>Fashion Categories</h1>
+  </div>
+  <div id="row2" class="row m-2 justify-content-between text-center " >
+    <div class=" col-sm-2  col-md-4 col-lg-2  m-2 ">
+      <img src="images/kurtas.jpg" alt="Kurtas" class="img-thumbnail bg-primary w-100 h-75" >
+      <h4 class="text-white bg-primary">Kurtas</h4>
+    </div>
+    <div  class="  col-sm-2  col-md-4 col-lg-2 m-2 ">
+      <img src="images/shirts.jpg" alt="Shirts" class="img-thumbnail bg-primary w-100 h-75" >
+      <h4 class="text-white bg-primary">Shirts</h4>
+    </div>
+    <div class=" col-sm-2  col-md-4 col-lg-2  m-2 ">
+      <img src="images/pants.jpeg" alt="Pants" class="img-thumbnail bg-primary w-100 h-75" >
+      <h4 class=" text-white bg-primary">Pants</h4>
+    </div>
+    <div  class=" col-sm-2  col-md-4 col-lg-2  m-2 ">
+      <img src="images/t-shirts.jpeg" alt="T-shirts" class="img-thumbnail bg-primary w-100 h-75" >
+      <h4 class="text-white bg-primary">T-shirts</h4>
+    </div>
+  </div>
+  <div id="row3" class="row m-2 justify-content-between text-center">
+    <div class="  col-sm-2  col-md-4 col-lg-2  m-2 ">
+      <img src="images/shoes.jpeg" alt="Shoes" class="img-thumbnail bg-primary w-100 h-75" >
+      <h4 class="text-white bg-primary">Shoes</h4>
+    </div>
+    <div class="  col-sm-2  col-md-4 col-lg-2 m-2  ">
+      <img src="images/casual-shirts.jpeg" alt="Causual Shirts" class="img-thumbnail bg-primary w-100 h-75 " >
+      <h4 class="text-white bg-primary">Causual Shirts</h4>
+    </div>
+    <div class=" col-sm-2  col-md-4  col-lg-2 m-2  " >
+      <img src="images/jeans.jpeg" alt="Jeans" class="img-thumbnail bg-primary w-100 h-75 " >
+      <h4 class="text-white bg-primary">Jeans</h4>
+    </div>
+    <div  class=" col-sm-2  col-md-4 col-lg-2 m-2  ">
+      <img src="images/tops.jpeg" alt="Tops" class="img-thumbnail border-bottom bg-primary w-100 h-75 " >
+      <h4 class="text-white bg-primary">Tops</h4>
+    </div>
+  </div>
+
+  <div id="category" class="m-4">
+    Adidas | Arrow | Fila | Online Shopping | Nike | Pepe Jeans | Puma | United Colors of Benetton | Fastrack |Shorts |
+    Being Human | Skirts | Woodland | Supra Dress Clothing | Jewellery | T-Shirts | Shoes | Bags | Watches | Caps |
+    Shirts |Flip Flops | Sunglasses | Kurtas | Jackets | Sketchers | Saree | Sandals | Puma Tshirts | Woodland Shoes | Titan
+    Watches| Fastrack Watches | Wrangler Shirts | Adidas Tshirts | Nike Shoes | Roadster Shirts |casual Shoes | Running Shoes |
+    Nike Sports Shoes | Jeans | Being Human | Tshirts | Converse Shoes | Cricket Shoes
+  </div>
+
+  <div id="footer" class=" row bg-dark text-white d-flex p-4 m-2 justify-content-between">
+    <div id="myaccount" class="col-sm-2 col-md-2 m-2 mb-2">
+      <div><span>MY ACCOUNT</span></div>
+      <div>Orders</div>
+      <div>Returns/Refunds</div>
+      <div>Track Order</div>
+      <div> Frequently Asked Questions</div>
+    </div>
+    <div class="policies col-sm-2 col-md-2 m-2 mb-4">
+      <div> <span>POLICIES</span></div>
+      <div>Payment Options</div>
+      <div>Terms & Conditions of Use</div>
+      <div>Terms & Conditions of Membership Program</div>
+      <div>Offer Terms & Conditions</div>
+      <div>Returns & Exchange Policy</div>
+      <div>Shipping Policy</div>
+      <div>Privacy Policy</div>
+    </div>
+    <div class="contactus col-sm-2 col-md-2 m-2 mb-4">
+      <div><span>CONTACT US</span></div>
+      <div>Customer Support</div>
+      <div>Store Locations</div>
+      <div>Help Center</div>
+    </div>
+    <div class="aboutus col-sm-2 col-md-2  m-2 mb-4">
+      <div><span>ABOUT US</span></div>
+      <div>Official Brand Store</div>
+      <div>About Us</div>
+      <div>Careers</div>
+    </div>
+    <div class="social col-sm-2 col-md-2 m-2 mb-4">
+      <div><span>SOCIAL</span></div>
+      <div>Facebook</div>
+      <div>Twitter</div>
+      <div>Youtube</div>
+    </div>
+  </div>
+</body>
+
+</html>
